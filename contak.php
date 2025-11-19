@@ -103,7 +103,8 @@ $data = mysqli_fetch_assoc($resultBiodata);
 
               <div class="map-wrapper mt-3">
                 <div style="max-width: 100%; overflow: hidden; max-height: 300px;">
-                  <?php echo $kontak['peta'] ?? ''; ?>
+                  <iframe src="https://www.google.com/maps?q=<?php echo urlencode($kontak['peta'] ?? ''); ?>&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
                 </div>
               </div>
             </div>
