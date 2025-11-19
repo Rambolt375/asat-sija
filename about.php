@@ -28,8 +28,8 @@ if (!empty($data['skill'])) {
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/kelly/img/favicon.png" rel="icon">
+  <link href="assets/kelly/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -37,14 +37,14 @@ if (!empty($data['skill'])) {
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/kelly/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Kelly
@@ -62,7 +62,7 @@ if (!empty($data['skill'])) {
 
       <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <img src="assets/kelly/img/logo.png" alt=""> -->
         <h1 class="sitename"><?php echo isset($data['nama_depan']) ? htmlspecialchars($data['nama_depan']) : ''; ?></h1>
       </a>
 
@@ -211,18 +211,18 @@ if (!empty($data['skill'])) {
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/kelly/vendor/php-email-form/validate.js"></script>
+  <script src="assets/kelly/vendor/aos/aos.js"></script>
+  <script src="assets/kelly/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/kelly/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/kelly/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/kelly/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/kelly/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/kelly/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/kelly/js/main.js"></script>
 
 </body>
 

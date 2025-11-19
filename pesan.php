@@ -26,7 +26,7 @@ if ($stmt->execute()) {
       title: 'Berhasil!',
       text: 'Pesan berhasil dikirim!',
     }).then(function() {
-      window.location.href = 'kontak.php';
+      window.location.href = 'contak.php';
     });
     </script>";
 } else {

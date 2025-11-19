@@ -17,8 +17,8 @@ $data = mysqli_fetch_assoc($resultBiodata);
   <title>Contact - Kelly Bootstrap Template</title>
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/kelly/img/favicon.png" rel="icon">
+  <link href="assets/kelly/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -26,14 +26,14 @@ $data = mysqli_fetch_assoc($resultBiodata);
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/kelly/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/kelly/css/main.css" rel="stylesheet">
 </head>
 
 <body class="contact-page">
@@ -171,16 +171,16 @@ $data = mysqli_fetch_assoc($resultBiodata);
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/kelly/vendor/aos/aos.js"></script>
+  <script src="assets/kelly/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/kelly/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/kelly/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/kelly/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/kelly/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/kelly/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/kelly/js/main.js"></script>
 </body>
 </html>
